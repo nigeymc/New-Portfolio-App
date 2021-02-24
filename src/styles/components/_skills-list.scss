@@ -1,0 +1,15 @@
+.input-group {
+    display: flex;
+    height: 40px;
+    width: auto;
+}
+
+.list-group {
+    width: 15rem;
+    flex-flow: column;
+}
+
+.skillsGroups {
+    display: flex;
+    justify-content: space-between;
+}

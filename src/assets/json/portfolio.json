@@ -1,0 +1,190 @@
+{
+    "firstName": "Niall",
+    "lastName": "McKenna",
+    "city": "London",
+    "birthPlace": {
+        "country": "Northern Ireland",
+        "town": "Omagh"
+    },
+    "jobTitle": "Front End Engineer",
+    "urls": {
+        "linkedIn": "https://www.linkedin.com/in/niallmckenna/",
+        "gitHub": "https://github.com/nigeymc"
+    },
+    "employment": [
+        {
+            "companyName": "River Island",
+            "logo": "images/riverisland.png",
+            "pageUrl": "/my-experience/river-island",
+            "jobTitle": "Front End Engineer",
+            "dates": "January 2016 - July 2020",
+            "website": "riverisland.com",
+            "location": "London",
+            "description": "Working in the Optimisation & Web Apps teams, where I coded A/B tests in Javascript for the Optimisation team and built web apps using ReactJS in the new Web Apps team.",
+            "summary": [
+                "Until December 2019 I was working within the Optimisation team. The team consisted of myself & another front-end developer with support from 2 QA engineers. As part of this team, my role was to work with several of the product teams, with a focus on delivering front-end customer experiences/user interfaces for both customer personalisation and A/B feature testing.",
+                "I coded user interfaces delivered to riverisland.com using Qubit (a Personalisation and A/B testing platform). Many of these included social proof abandonment layers and urgency messaging & segmentation on riverisland.com. I also built dynamic page templates for the marketing teams to use so that they could easily create website pages without having to touch code.",
+                "Much of my work involved coding user interfaces for A/B tests to assist various product teams in feature testing new components and website features on riverisland.com.",
+                "I coded all the above in Vanilla Javascript/ES6, React & LESS/Sass. I used Git for version control and NPM for installing Node packages.",
+                "In January 2020, I left the Optimisation team to join a new Web Apps product team. Helping to rebuild various parts of riverisland.com as web apps in ReactJS."
+            ]
+        },
+        {
+            "companyName": "Stella & Dot",
+            "logo": "images/S&D.png",
+            "pageUrl": "/my-experience/stella-and-dot",
+            "jobTitle": "Front End Engineer",
+            "dates": "April 2013 - December 2015",
+            "website": "stelladot.com",
+            "location": "London",
+            "description": "I led the UK/EU Web Production team, managing the front end development & launch of the company's independent UK & European websites (stelladot.co.uk, stelladot.ie, stelladot.de, stella.fr)",
+            "summary": [
+                "Working in the London office serving the UK and European businesses, where I led the UK/EU Web Production team.",
+                "My responsibilities included managing all front end development projects for 4 independent websites, including the launch of both stelladot.ie & stella.fr. I coded all landing pages & micro sites in HTML, CSS & Javascript for Magento and Drupal CMS. I also coded A/B tests in Javascript for the Optimizely A/B testing platform.",
+                "As well as managing the front end development projects, I was responsible for coding all HTML marketing emails going out weekly to all 4 UK & European websites users."
+            ]
+        },
+        {
+            "companyName": "Net-A-Porter",
+            "logo": "images/netaporter.png",
+            "pageUrl": "/my-experience/net-a-porter",
+            "jobTitle": "Front End Engineer",
+            "dates": "January 2012 - April 2013",
+            "website": "net-a-porter.com",
+            "location": "London",
+            "description": "As part of the Web Production team, I helped build the weekly Net A Porter online magazine & worked on the front end development of Net-a-porter.com & theoutnet.com websites",
+            "summary": [
+                "Part of the product team that transitioned the ‘The Edit’ online magazine from a standalone Adobe Flash product to a new CMS based product written in HTML5, Sass and Javascript.",
+                "As part of the Web Production team I built the weekly edition of the ‘The Edit’ online HTML magazine in 4 languages. Prior to the HTML magazine, I built the weekly Adobe Flash version.",
+                "Working closely with the Marketing, Product, Editorial and Design teams to ensure the production of online marketing campaign landing pages for both desktop and mobile - written in HTML, CSS/Sass & Javascript for net-a-porter.com and theoutnet.com."
+            ]
+        },
+        {
+            "companyName": "Jet2.com",
+            "logo": "images/jet2.png",
+            "pageUrl": "/my-experience/jet2",
+            "jobTitle": "Front End Designer & Front End Engineer",
+            "dates": "November 2009 - December 2011",
+            "website": "jet2.com",
+            "location": "Leeds, West Yorkshire",
+            "description": "I worked on both the design & front end development of Jet2.com and Jet2holidays.com. Designing & coding user interfaces & marketing content (banners, landing pages, micro sites) for both the public and user account facing websites",
+            "summary": [
+                "I worked on both the BAU design & front end development of Jet2.com and Jet2holidays.com. Designing & coding user interfaces for both the public and user account facing websites. I produced marketing content such as landing pages, micro sites, banners, emails & 3rd party ad banners for campaigns built to Google Display Network and DART specification.",
+                "I was soley responsible for redesiging the entirety of the Jet2holidays.com website & was part of the Front End Engineering team that coded the new design.",
+                "I helped conduct web usability studies through user testing for both Jet2.com and Jet2holidays.com"
+            ]
+        }
+    ],
+    "skillsPage": [
+        {
+            "languages": [
+                "Vanilla JS",
+                "ES6",
+                "HTML5",
+                "CSS3"
+            ]
+        },
+        {
+            "libraries_frameworks": [
+                "ReactJS",
+                "React Router",
+                "React Redux",
+                "Hooks",
+                "Context API",
+                "jQuery",
+                "Sass",
+                "Bootstrap",
+                "React-Bootstrap",
+                "Webpack",
+                "Babel",
+                "Jest",
+                "Enzyme",
+                "NPM",
+                "Yarn"
+            ]
+        },
+        {
+            "services": [
+                "AWS",
+                "Google Firebase",
+                "Heroku"
+            ]
+        },
+        {
+            "tools": [
+                "Git",
+                "Qubit",
+                "MaxyMiser",
+                "Optimizely",
+                "New Relic",
+                "Decibel Insight",
+                "Photoshop",
+                "Illustrator",
+                "Wordpress"
+            ]
+        },
+        {
+            "skillset": [
+                "Front End Engineering",
+                "UI Coding",
+                "A/B Testing",
+                "Personalisation",
+                "Wordpress Website Development",
+                "Front End Design",
+                "UI Design",
+                "Agile Methodologies",
+                "SCRUM"
+            ]
+        },
+        {
+            "education": [
+                {
+                    "university": "University of Ulster",
+                    "studied": "BSc Interactive Multimedia Design",
+                    "qualification": "2:2",
+                    "other": "1 year Industrial Placement at Belfast Media Group"
+                },
+                {
+                    "school": "Christian Brothers Grammar School",
+                    "studied": "A Level Computing & AVCE Double Award Business Studies",
+                    "qualification": "D AA"
+                }
+            ]
+        }
+    ],
+    "githubProjects": [
+        {
+            "thumbnails": [
+                "images/portfolio-thumbnail.jpg",
+                "images/expensify-thumbnail.jpg",
+                "images/new-features-thumbnail.jpg"
+            ]
+        }
+    ],
+    "nonGithubProjects": [
+        {
+            "title": "Basket Summary Slide In Modal",
+            "category": "A/B Test - Optimsation Team",
+            "thumbnail": "images/slide-in-basket-thumbnail.jpg",
+            "summary": [
+                "The slide in basket summary modal feature on the River Island website was released in 2019 as a replacement for the mini basket pop up. Before this feature was deployed as a full feature on the website, I had to build the feature as an A/B test first. When the user metrics on the test confirmed it to be successful, the test continued to be deployed at 100% until it was ready for deployment in a full release several months later. It was coded in Vanilla JS, ES6 & SASS. It was deployed via the Qubit A/B Testing software. It pulls data from both the Qubit API & River Island's basket API."
+            ]
+        },
+        {
+            "title": "Add to Basket Sticky Footer",
+            "category": "A/B Test - Optimsation Team",
+            "thumbnail": "images/slide-in-basket-thumbnail.jpg",
+            "summary": [
+                "The add to basket sticky footer on the River Island mobile website was another feature that was A/B tested before being released as a full feature on the River Island website. I built the A/B test using Vanilla JS, ES6 & SASS. It clones data from the main add to basket panel as well as pulling data from the Qubit API."
+            ]
+        },
+        {
+            "title": "Customer Account App",
+            "category": "Web Apps Team",
+            "thumbnail": "images/web-app-thumbnail.jpg",
+            "summary": [
+                "The first & only project I worked on as part of my time in the Web Apps team, was the redevelopment of the Customer Account section of the River Island website. As part of this project, I helped rebuild the section as a web app in ReactJs."
+            ]
+        }
+    ]
+}

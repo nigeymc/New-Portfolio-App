@@ -1,0 +1,34 @@
+#homepage {
+    background: url(/images/neon-sky-bg.jpg) no-repeat center top;
+    background-size: cover;
+    background-color: #0F1616;
+    background-blend-mode: color-dodge;
+
+    .homepage-section__content {
+
+      h1 {
+        color: $primaryWhite;
+        font-family: $headings-font-family;
+        width: 300px;
+
+        .text--primary {
+          position: relative;
+          -webkit-text-fill-color: $primary !important; /* Will override color (regardless of order) */
+          -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-color: $primaryWhite;
+        }
+
+        @supports (-webkit-text-stroke: 2px $primaryWhite) {
+            .text--primary {
+              -webkit-text-stroke: 2px $primaryWhite;
+              -webkit-text-fill-color: $primary;
+            }
+        }
+      }
+
+      .subheading {
+        color: $primaryWhite;
+      }
+    }
+    
+}

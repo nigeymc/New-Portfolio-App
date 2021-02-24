@@ -1,0 +1,14 @@
+#sideNav {
+    .navbar-brand {
+
+        .img-profile {
+            background-color: #0F1616;
+            mix-blend-mode: luminosity;
+
+            &:hover {
+                background-color: #0F1616;
+                mix-blend-mode: luminosity;
+            }
+        }
+    }
+}

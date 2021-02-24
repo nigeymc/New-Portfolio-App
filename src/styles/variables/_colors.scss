@@ -1,0 +1,28 @@
+// Pre-state grayscale colors used in other variables
+
+$grey-800: #343a40;
+
+$off-black: #262626;
+
+// Override Bootstrap color system
+
+$primaryGreen: #0C3333;
+
+$secondaryGreen: #008C8E;
+
+$primaryWhite: #fff;
+
+$off-white: #F7F7F7;
+
+$lightGrey: #6c757d;
+
+// Override Bootstrap default state colors
+
+$primary: $primaryGreen;
+$secondary: $secondaryGreen;
+
+// Override Bootstrap yiq lightness value
+
+$yiq-contrasted-threshold: 205;
+
+

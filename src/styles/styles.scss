@@ -1,0 +1,27 @@
+// Import variables
+@import "./variables.scss";
+
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Global CSS
+@import "./global.scss";
+
+// Components
+@import "./components/sidenav.scss";
+@import "./components/homepage.scss";
+@import "./components/icons.scss";
+@import "./components/profile-pic.scss";
+@import "./components/experienceCard.scss";
+@import "./components/accordion.scss";
+@import "./components/skills-list.scss";
+
+// Sections
+@import "./sections/homepage-section.scss";
+@import "./sections/general-section.scss";
+
+$body-color: $primaryGreen;
+
+body {
+  color: $body-color;
+}
