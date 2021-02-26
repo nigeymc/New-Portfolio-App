@@ -33,6 +33,25 @@ section.general-section {
     .general-section__content {
         padding: 1rem 0;
         width: 100%;
+        display: flex;
+        flex-flow: column;
+
+        h2 {
+            color: $off-black;
+        }
+
+        p {
+            font-family: $alt-headings-font-family;
+            color: $off-black;
+        }
+        
+    }
+
+    .general-section__content--columns {
+        padding: 1rem 0;
+        width: 100%;
+        display: flex;
+        flex-flow: row;
 
         h2 {
             color: $off-black;
