@@ -8,6 +8,7 @@ const SkillsListGroup = (props) => (
             <ListGroup.Item as="li" key={val}>{val}</ListGroup.Item>
         )}
     </ListGroup>
+
 );
 
 export { SkillsListGroup as default };

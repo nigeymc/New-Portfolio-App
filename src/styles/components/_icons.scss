@@ -1,6 +1,11 @@
 // Styling for the rounded social media links
 
 .social-icons {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
     .social-icon {
         display: inline-flex;
         align-items: center;
@@ -29,6 +34,7 @@
 
 .title__icon {
     position: absolute;
+    cursor: pointer;
 }
 
 .job__icon {

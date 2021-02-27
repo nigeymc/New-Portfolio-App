@@ -1,6 +1,9 @@
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    @include media-breakpoint-up(md) {
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    }
     grid-gap: 10px;
     
     .card-img-top {

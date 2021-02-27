@@ -1,0 +1,5 @@
+#contact {
+    @include media-breakpoint-up(md) {
+        height: 100vh;
+    }
+}

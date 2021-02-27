@@ -32,14 +32,14 @@ const ContactMePage = () => {
             <section className="general-section" id="contact">
                 <PageHeader firstWord={firstWord} secondWord={secondWord} />
                 <div className="general-section__content--columns">
-                    <Col md={10}>
+                    <Col md={8} lg={10}>
                         <div>
                             <p>Drop me line, or feel free to get social with me.</p>
                             <ContactForm />
                         </div>
                     </Col>
-                    <Col md={2} className="mt-5" style={{ textAlign: "center" }}>
-                        <p className="mt-2">Catch me on</p>
+                    <Col md={4} lg={2} className="mt-5" style={{ textAlign: "center" }}>
+                        <p className="mt-2">Follow me on</p>
                         <SocialIcons linkedIn={linkedIn} gitHub={gitHub} />
                     </Col>
                 </div>

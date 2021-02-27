@@ -34,7 +34,7 @@ const MyProjectsPage = () => {
 
     return (
         <Container fluid className="p-0">
-            <section className="general-section general-section" id="experience">
+            <section className="general-section" id="projects">
                 <PageHeader firstWord={firstWord} secondWord={secondWord} />
                 <div className="general-section__content">
 

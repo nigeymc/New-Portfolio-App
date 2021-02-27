@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Brand, Toggle, Collapse, Nav, Link, Container, Row, Col } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import ProfilePic from "./ProfilePic";
 
 const SideNav = () => (
@@ -8,7 +8,16 @@ const SideNav = () => (
         <Navbar.Brand href="/">
             <ProfilePic />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+            <div id="smallWrapper">
+                <input type="checkbox" className="hamburger-menu" />
+                <div id="bars">
+                    <div className="bar"></div>
+                    <div className="bar"></div>
+                    <div className="bar"></div>
+                </div>
+            </div>
+        </Navbar.Toggle>
         <Navbar.Collapse id="navbarSupportedContent">
             <Nav activeKey={location.pathname} className="mr-auto">
                 <ul className="navbar-nav">
@@ -19,7 +28,7 @@ const SideNav = () => (
                     <li className="nav-item"><Nav.Link href="/my-projects" activeclassname="active">My Projects</Nav.Link></li>
                     <li className="nav-item"><Nav.Link href="/contact-me" activeclassname="active">Contact Me</Nav.Link></li>
                 </ul>
-                <footer>&middot; Niall McKenna &copy; {new Date().getFullYear()} &middot;</footer>
+                <footer><img src="/images/nmk.svg" /> <span>.dev <span className="copyright">&copy;</span> {new Date().getFullYear()}</span></footer>
             </Nav>
         </Navbar.Collapse>
     </Navbar>

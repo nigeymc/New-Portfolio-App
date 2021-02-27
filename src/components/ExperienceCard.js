@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { Col, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 const ExperienceCard = (props) => (
     <Card style={{ width: '18rem' }}>

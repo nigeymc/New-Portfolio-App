@@ -24,7 +24,7 @@ const ProjectCard = (props) => {
 
     return (
         <Fragment>
-            <Card style={{ width: '25em' }}>
+            <Card>
                 <Card.Img variant="top" src={props.thumbnail} onClick={() => setModalShow(true)} />
                 <Card.Body>
                     <Card.Title>

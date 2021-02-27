@@ -1,15 +1,34 @@
-.input-group {
-    display: flex;
-    height: 40px;
-    width: auto;
-}
+#skills {
+   .input-group {
+        display: flex;
+        height: 40px;
+        width: auto;
+    }
 
-.list-group {
-    width: 15rem;
-    flex-flow: column;
-}
+    .list-group {
+        width: 18rem;
+        @include media-breakpoint-up(md) {
+            width: 15rem;
+        }
+        flex-flow: column;
+    }
 
-.skillsGroups {
-    display: flex;
-    justify-content: space-between;
+    .skillsGroups {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+        @include media-breakpoint-up(md) {
+            grid-template-columns: repeat(auto-fit, minmax(15rem, 2fr));
+        }
+        grid-gap: 10px;
+        justify-content: space-between;
+        flex-flow: column;
+        @include media-breakpoint-up(md) {
+            flex-flow: row;
+        }
+
+        .list-group {
+            margin-bottom: 20px;
+        }
+
+    } 
 }

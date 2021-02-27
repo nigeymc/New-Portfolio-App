@@ -13,6 +13,7 @@ body {
 
 .container-fluid {
   display: flex;
+  height: fit-content;
 }
 
 h1,
@@ -44,12 +45,17 @@ sup {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1.3rem;
+    width: 1.3rem;
+    @include media-breakpoint-up(md) {
+      height: 1.5rem;
+      width: 1.5rem;
+      font-size: 1rem;
+    }
     background-color: $white;
     color: $primary;
     border-radius: 100%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-right: 0.5rem;
     right: -15px;
     top: 0.3rem;
@@ -131,4 +137,22 @@ sup {
 
 .modal-body {
   text-align: center;
+
+  img {
+    width: 100%;
+  }
+}
+
+.accordion {
+  margin-bottom: 10px;
+
+  .card-header {
+    h4 {
+      margin-right: 30px;
+
+      @include media-breakpoint-up(lg) {
+        margin-right: 10px;
+      }
+    }
+  }
 }

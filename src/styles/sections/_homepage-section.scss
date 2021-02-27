@@ -6,13 +6,15 @@ section.homepage-section {
     padding-top: 5rem;
     padding-bottom: 5rem;
     width: 100vw;
+    height: 100vh;
     .homepage-section__content {
         width: 100%;
+        margin-top: -200px;
     }
 }
 @include media-breakpoint-up(md) {
     section.homepage-section {
-        min-height: 100vh;
+    
     }
 }
 @include media-breakpoint-up(lg) {

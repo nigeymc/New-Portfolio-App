@@ -7,12 +7,17 @@ section.general-section {
     padding-right: 2rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    width: 100vw;
+    width: 100%;
     position: relative;
+    height: 100%;
 
     h1 {
         color: $primaryGreen;
         font-family: $headings-font-family;
+        font-size: 4rem;
+        @include media-breakpoint-up(lg) {
+            font-size: 6rem;
+        }
         width: auto;
         padding-left: 0.8rem;
 
@@ -35,6 +40,7 @@ section.general-section {
         width: 100%;
         display: flex;
         flex-flow: column;
+        align-items: stretch;
 
         h2 {
             color: $off-black;
@@ -51,7 +57,10 @@ section.general-section {
         padding: 1rem 0;
         width: 100%;
         display: flex;
-        flex-flow: row;
+        flex-flow: column;
+        @include media-breakpoint-up(md) {
+            flex-flow: row;
+        }
 
         h2 {
             color: $off-black;
@@ -64,11 +73,7 @@ section.general-section {
         
     }
 }
-// @include media-breakpoint-up(md) {
-//     section.general-section {
-//         min-height: 100vh;
-//     }
-// }
+
 @include media-breakpoint-up(lg) {
     section.general-section {
         padding-left: 4rem;

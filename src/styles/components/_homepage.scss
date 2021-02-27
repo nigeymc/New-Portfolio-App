@@ -5,10 +5,17 @@
     background-blend-mode: color-dodge;
 
     .homepage-section__content {
+      @include media-breakpoint-up(md) {
+        width: 50%;
+      }
 
       h1 {
         color: $primaryWhite;
         font-family: $headings-font-family;
+        font-size: 4.4rem;
+        @include media-breakpoint-up(md) {
+          font-size: 6rem;
+        }
         width: 300px;
 
         .text--primary {
@@ -28,6 +35,11 @@
 
       .subheading {
         color: $primaryWhite;
+      }
+
+      .social-icons {
+        text-align: left;
+        justify-content: left;
       }
     }
     

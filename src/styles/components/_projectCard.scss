@@ -1,0 +1,8 @@
+#projects {
+    .card {
+        width: 18rem;
+        @include media-breakpoint-up(md) {
+            width: 22rem;
+        }
+    }
+}
