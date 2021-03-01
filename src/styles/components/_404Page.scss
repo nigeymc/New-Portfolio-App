@@ -1,0 +1,62 @@
+@keyframes noise{
+    0% {background-position-y: 0px;}
+    100% {background-position-y: -420px;}
+    }
+    
+    #not-found {
+        margin: 0px;
+        height: 100vh;
+        box-shadow: 0px 0px 122px 25px black inset;
+        background: url('https://i.imgur.com/eg7VIun.jpg'), url('/images/neon-sky-bg.jpg') no-repeat center top;
+        background-size: cover;
+        background-color: #0F1616;
+        background-blend-mode: color-dodge;
+    }
+
+    section.general-section--not-found {
+        @extend section.general-section;
+        background-color: transparent !important;
+        background-image: none !important;
+        text-align: left !important;
+
+        h1 {
+            -webkit-text-fill-color: $primaryWhite !important; /* Will override color (regardless of order) */
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: $primary;
+            padding-left: 0 !important;
+        }
+
+        @supports (-webkit-text-stroke: 2px $primary) {
+            h1 {
+              -webkit-text-stroke: 2px $primary;
+              -webkit-text-fill-color: $primaryWhite;
+            }
+        }
+    }
+    
+    .glitch-text{
+        position: relative;
+        z-index: 2;
+        opacity: .9;
+        text-shadow: 0px 0px 3px white;
+        animation: glitch 3s infinite;
+        cursor: pointer;
+    }
+    
+    /* JUST RANDOM VALUES HERE! */
+    @keyframes glitch{
+        3%{text-shadow:7px 7px 0px $primaryGreen;}
+        6%{text-shadow:-9px 4px 0px $secondary;transform:translate(4px,-10px) skewX(3240deg);}
+        7%{text-shadow:3px -4px 0px $off-black;}
+        9%{text-shadow:0px 0px 3px $lightGrey;transform:translate(0px,0px) skewX(0deg);}
+        2% , 54%{transform:translateX(0px) skew(0deg);}
+        55%{transform:translate(-2px,6px) skew(-5530deg);}
+        56%{text-shadow:0px 0px 3px $lightGrey;transform:translate(0px,0px) skew(0deg);}
+        57%{text-shadow:7px 7px 0px $primary;transform:translate(4px,-10px) skew(-70deg);}
+        58%{text-shadow:0px 0px 3px $off-black;transform:translate(0px,0px) skew(0deg);}
+        62%{text-shadow:3px -4px 0px $primaryWhite;transform:translate(0px,20px) skew(0deg);}
+        63%{text-shadow:0px 0px 3px $secondary;transform:translate(4px,-2px) skew(0deg);}
+        64%{transform:translate(1px,3px), skew(-230deg);}
+        65%{transform:translate(-7px,2px), skew(120deg);}
+        66%{transform:translate(0px,0px) skew(0deg);}
+    }
