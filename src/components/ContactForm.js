@@ -101,7 +101,7 @@ const ContactForm = () => {
                     <Form.Group className="form-group">
 
                     </Form.Group>
-                    {showFormErr ? <p>Please complete all fields to send a message</p> : null}
+                    {showFormErr && <p>Please complete all fields to send a message</p>}
                     <Button variant="primary" type="submit" className="btn btn-primary">Send Message</Button>
                 </Form>
             ) : (
