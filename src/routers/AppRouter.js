@@ -17,7 +17,7 @@ import NotFoundPage from "../components/NotFoundPage";
 export const history = createHistory();
 
 const AppRouter = () => (
-  <BrowserRouter>
+  <BrowserRouter history={history}>
     <div>
       <SideNav />
       <Switch>
